@@ -249,7 +249,7 @@ fn page_configuration() -> PageConfiguration {
     .with_link("https://twitter.com/stadust1971", tr("footer-tweet.developer"));
 
     // Stitching it all together into a page configuration
-    PageConfiguration::new("<your website name here>", nav_bar, footer)
+    PageConfiguration::new("<Some Bros Demonlist", nav_bar, footer)
         // Used for the HTML "author" meta tag
         .author("your name")
         // Used for the HTML "keywords" meta tag
