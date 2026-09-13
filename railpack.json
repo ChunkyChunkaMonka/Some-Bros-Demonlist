@@ -1,1 +1,8 @@
-
+{
+  "build": {
+    "buildCommand": "cargo build --release -p pointercrate-example && mkdir -p bin && cp target/release/pointercrate-example bin/pointercrate-example"
+  },
+  "deploy": {
+    "startCommand": "./bin/pointercrate-example"
+  }
+}
